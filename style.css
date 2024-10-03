@@ -1302,6 +1302,9 @@ footer{
         /* box-shadow: unset; */
         /* border-bottom: .2px solid #dddddd; */
     }
+    .gallery-item p{
+        padding-bottom: 15px;
+    }
 }
 
 @media screen and (min-width:1860px){
@@ -1341,7 +1344,7 @@ footer{
         margin-left: 95px;
     }
     .english{
-        padding-right: 40px;a
+        padding-right: 40px;
     }
     .txt2{
         text-wrap: nowrap;
