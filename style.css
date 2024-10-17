@@ -147,9 +147,9 @@
         height: 32px;
     }
     .upload img{
-        padding: 4px;
+        padding: 7px;
         border-radius: 50%;
-        background-color: whitesmoke;
+        background-color: #dddddd;
     }
     .grid{
       display: grid;  
@@ -188,8 +188,9 @@
 .scroll::-webkit-scrollbar{
     display: none;
 }
-.scroll:nth-child(1){
+.scroll >:nth-child(1){
     border-bottom: 2px solid #222222;
+    color: #222222;
 }
 /* .scroll:nth-child(3){ */
     /* display: none; */
@@ -254,6 +255,7 @@
     color: #6a6a6a;
     font-size: 14px;
     font-weight: 600;
+    padding-bottom: 10px;
 }
 .a p{
     font-size: 14px;
@@ -378,7 +380,7 @@
       top: 0;
     } 
 .top-div{
-    padding: 6px;
+    padding: 8px;
     border-radius: 32px;
     /* border:2px solid; */
     margin-bottom: 20px;
@@ -405,7 +407,7 @@
     height: 54px;
     padding-left: 20px;
     padding-right: 20px;
-    margin-top: 15px;
+    /* margin-top: 15px; */
 }
 .txttop{
     font-family: font-air;
@@ -546,11 +548,12 @@ footer{
     display: flex;
     font-family: font-air;
     justify-content: center;
-    gap: 30px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    gap: 27px;
+    padding-top: 12px;
+    padding-bottom: 12px;
     box-sizing: border-box;
     border: .5px solid rgb(221, 221, 221);
+    background-color: #f7f7f7;
 }
 .lns p{
     margin: 0px;
@@ -665,6 +668,16 @@ footer{
     /* .top{ */
         /* top: 122px; */
     /* } */
+    .final{
+        padding-top: 12px;
+        padding-bottom: 20px;
+    }
+    .latest{
+        margin-bottom: 12px;
+    }
+    .top{
+        padding-top: 16px;
+    }
 }
 @media screen and (min-width:550px){
     .grid{
@@ -701,7 +714,9 @@ footer{
     .srchb{
         padding-left: 25px;
         padding-right: 25px;
+
     }
+    /* add */
     .top-div{
         padding: 8px;
     }
@@ -716,6 +731,9 @@ footer{
     .pic .text p{
         font-size: 15px;
         line-height: 19px;
+    }
+    .slide{
+        padding-bottom: 10px;
     }
     .pic{
         padding-bottom: 15px;
@@ -760,6 +778,9 @@ footer{
     .top-div{
         display: none;
     }
+    .top{
+        padding-top: 0px;
+    }
     .first{
         display: flex;
 
@@ -776,7 +797,7 @@ footer{
     .newa{
         display: flex;
         align-items: center;
-        justify-content: space-between; 
+        /* justify-content: space-between;  */
     }
     .pblock{
         display: flex;
@@ -1287,7 +1308,7 @@ footer{
         margin-left: 80px;
     }
     .latest{
-        margin-left: 590px;
+        margin-left: 800px;
     }
     .sub1{
         /* text-align: center; */
@@ -1298,12 +1319,11 @@ footer{
     .globe img{
         margin-top: 16px;
     }
-    .container1{
-        /* box-shadow: unset; */
-        /* border-bottom: .2px solid #dddddd; */
-    }
-    .gallery-item p{
+    .container1 .gallery-item .image-name{
         padding-bottom: 15px;
+    }
+    .newa{
+        justify-content: space-between;
     }
 }
 
